@@ -34,4 +34,7 @@ footer {
   flex-basis: 100%;
 }
 
+.logo-container, .nav-container {
+  flex-basis: 100%;
+}
 }
