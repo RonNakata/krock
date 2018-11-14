@@ -1,0 +1,36 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.nav-container {
+  display: flex;
+  background-color: grey;
+}
+
+.logo-container {
+  height: 100px;
+}
+#logo-pic{
+  height: 100%;
+}
+
+.contact-container{
+  padding: 20px;
+  text-align: right;
+  flex: 1;
+}
+
+footer {
+  background-color: red;
+}
+
+
+
+@media screen and (max-width: 400px) {
+ 
+.nav-container{
+  flex-basis: 100%;
+}
+
+}
