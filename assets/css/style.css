@@ -27,8 +27,11 @@ footer {
 
 
 
-@media screen and (max-width: 500px) {
- 
+@media screen 
+and (max-width: 500px) 
+and (-webkit-device-pixel-ratio : 2)
+{
+
 .nav-container{
   flex-wrap: wrap;
   flex-basis: 100%;
@@ -37,4 +40,5 @@ footer {
 .logo-container, .nav-container {
   flex-basis: 100%;
 }
+
 }
