@@ -30,6 +30,7 @@ footer {
 @media screen and (max-width: 400px) {
  
 .nav-container{
+  flex-wrap: wrap;
   flex-basis: 100%;
 }
 
