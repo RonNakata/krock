@@ -191,6 +191,131 @@ button:hover{
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
+h1 {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+p{
+  font-size: 16px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.service-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.service-info {
+  width: 75%;
+  text-align: left;
+  background: lightgray;
+  padding: 15px;
+
+}
+
+ul{
+  list-style-type: square;
+  list-style-position: inside;
+  margin-bottom: 15px;
+
+}
+
+ol {
+  margin-bottom: 10px;
+  list-style: decimal inside;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.map-div {
+  width: 75%;
+  text-align: left;
+  background: lightgray;
+  padding: 15px;
+  text-align: center;
+}
+
+
+.background-bottom{
+  width: 100%;
+  background-image: url("../images/wirebox.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.darken-bottom {
+  background: rgba(0,0,0,0.3);
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.question-bottom {
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 50px;
+  margin-bottom: 15px;
+  margin-top: 0px;
+  color: white;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.answer-bottom {
+  /* width: 100%; */
+  font-family: Georgia;
+  font-size: 18px;
+  margin: 50px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+  text-align: center;
+}
+
+.summary-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.summary {
+  width: 95%;
+  padding: 10px;
+
+}
+
 @media screen 
 and (max-width: 500px) 
 and (-webkit-device-pixel-ratio : 2)
