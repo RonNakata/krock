@@ -239,6 +239,10 @@ ul{
 
 }
 
+ul.aboutus{
+  list-style-type: none;
+}
+
 ol {
   margin-bottom: 10px;
   list-style: decimal inside;
@@ -314,6 +318,9 @@ li {
 .summary {
   width: 95%;
   padding: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 
 }
 
